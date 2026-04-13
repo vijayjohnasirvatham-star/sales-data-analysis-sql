@@ -60,5 +60,18 @@ sales-sql-project/
 ├── queries.sql -- SQL analysis queries
 └── README.md -- Project documentation
 
+Dashboard Preview
+
+Overview
+<img width="1141" height="642" alt="Overview" src="https://github.com/user-attachments/assets/1d541b42-1503-4677-90b3-c5b925c75cf4" />
+
+Customer Analysis
+![Customer](images/customer_analysis.png)
+
+### Product Analysis
+![Product](images/product_analysis.png)
+
+### Time Analysis
+![Time](images/time_analysis.png)
 Conclusion:
 This project demonstrates the ability to analyze structured data using SQL and derive meaningful business insights. It reflects practical data analysis skills required for entry-level data analyst roles.

@@ -66,12 +66,13 @@ Overview
 <img width="1141" height="642" alt="Overview" src="https://github.com/user-attachments/assets/1d541b42-1503-4677-90b3-c5b925c75cf4" />
 
 Customer Analysis
-![Customer](images/customer_analysis.png)
+<img width="1137" height="641" alt="Customers_analysis" src="https://github.com/user-attachments/assets/6d80ab0c-933f-4608-b30d-f226f3f88ac5" />
 
-### Product Analysis
-![Product](images/product_analysis.png)
+Product Analysis
+<img width="1137" height="638" alt="Product_analysis" src="https://github.com/user-attachments/assets/f428710a-82b8-45d0-a607-55a0e154a167" />
 
-### Time Analysis
-![Time](images/time_analysis.png)
+Time Analysis
+<img width="1162" height="652" alt="Time_analysis" src="https://github.com/user-attachments/assets/02a39237-6855-4b16-8bae-91e3e65984ef" />
+
 Conclusion:
 This project demonstrates the ability to analyze structured data using SQL and derive meaningful business insights. It reflects practical data analysis skills required for entry-level data analyst roles.

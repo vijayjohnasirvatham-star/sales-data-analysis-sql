@@ -232,3 +232,36 @@ FROM (
         GROUP BY month
     ) t1
 ) t2;
+
+Query 15:
+
+calculate a running total of customer spend?
+
+SELECT 
+    order_date,
+    customer_id,
+    SUM(p.price * oi.quantity) OVER (PARTITION BY customer_id ORDER BY order_date) AS lifetime_customer_spend,
+    RANK() OVER (PARTITION BY customer_id ORDER BY order_date DESC) AS purchase_number
+FROM orders o
+JOIN order_items oi ON o.id = oi.order_id
+JOIN products p ON oi.product_id = p.id;
+
+Query 16:
+
+Calculate the Running Total of revenue and Month-over-Month (MoM) Growth?
+
+WITH MonthlyRevenue AS (
+    SELECT 
+        DATE_FORMAT(o.order_date, '%Y-%m') AS Month,
+        SUM(p.price * oi.quantity) AS Revenue
+    FROM orders o
+    JOIN order_items oi ON o.id = oi.order_id
+    JOIN products p ON oi.product_id = p.id
+    GROUP BY 1
+)
+SELECT 
+    Month,
+    Revenue,
+    LAG(Revenue) OVER (ORDER BY Month) AS PreviousMonthRevenue,
+    ROUND(((Revenue - LAG(Revenue) OVER (ORDER BY Month)) / LAG(Revenue) OVER (ORDER BY Month)) * 100, 2) AS GrowthPercent
+FROM MonthlyRevenue;

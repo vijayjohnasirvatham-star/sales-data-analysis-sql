@@ -13,6 +13,20 @@ orders – order-level information
 order_items – products within each order
 products – product details and pricing
 
+Dashboard Preview
+
+Overview
+<img width="1141" height="642" alt="Overview" src="https://github.com/user-attachments/assets/1d541b42-1503-4677-90b3-c5b925c75cf4" />
+
+Customer Analysis
+<img width="1137" height="641" alt="Customers_analysis" src="https://github.com/user-attachments/assets/6d80ab0c-933f-4608-b30d-f226f3f88ac5" />
+
+Product Analysis
+<img width="1137" height="638" alt="Product_analysis" src="https://github.com/user-attachments/assets/f428710a-82b8-45d0-a607-55a0e154a167" />
+
+Time Analysis
+<img width="1162" height="652" alt="Time_analysis" src="https://github.com/user-attachments/assets/02a39237-6855-4b16-8bae-91e3e65984ef" />
+
 Revenue Analysis:
 - What is the total revenue generated?
 - How much revenue does each product contribute?
@@ -51,28 +65,6 @@ Key Insights:
 - Detected repeat customers and analyzed their behavior
 - Measured average order value to understand purchasing patterns
 - Analyzed monthly revenue trends and growth rate
-
-Project Structure:
-sales-sql-project/
-│
-├── schema.sql -- Database structure
-├── data.sql -- Sample dataset
-├── queries.sql -- SQL analysis queries
-└── README.md -- Project documentation
-
-Dashboard Preview
-
-Overview
-<img width="1141" height="642" alt="Overview" src="https://github.com/user-attachments/assets/1d541b42-1503-4677-90b3-c5b925c75cf4" />
-
-Customer Analysis
-<img width="1137" height="641" alt="Customers_analysis" src="https://github.com/user-attachments/assets/6d80ab0c-933f-4608-b30d-f226f3f88ac5" />
-
-Product Analysis
-<img width="1137" height="638" alt="Product_analysis" src="https://github.com/user-attachments/assets/f428710a-82b8-45d0-a607-55a0e154a167" />
-
-Time Analysis
-<img width="1162" height="652" alt="Time_analysis" src="https://github.com/user-attachments/assets/02a39237-6855-4b16-8bae-91e3e65984ef" />
 
 Conclusion:
 This project demonstrates the ability to analyze structured data using SQL and derive meaningful business insights. It reflects practical data analysis skills required for entry-level data analyst roles.
